@@ -37,7 +37,6 @@ public class Multiplayer implements ActionListener {
     private PrintWriter out;
     private BufferedReader in;
 
-
     Multiplayer(Game game, Player player,Hero hero,Gameplay gameplay) {
         this.m_game = game;
         this.m_player = player;
@@ -158,7 +157,9 @@ public class Multiplayer implements ActionListener {
                 this.m_player.InitializePlayer(this.m_hero,this.m_nick, this.m_heroInt1);
                 this.m_gameplay.InitializeCard();
 
+                this.m_gameplay.Check();
                 this.m_game.setScene(6);
+
             }
 
             this.m_game.RePaint();
@@ -255,11 +256,11 @@ public class Multiplayer implements ActionListener {
     public void Connect() {
         try {
             this.m_socket = new Socket(this.m_ip, this.m_port);
-
+            this.m_game.setSocket(m_socket);
             this.out = new PrintWriter(this.m_socket.getOutputStream(), true);
             this.in = new BufferedReader(new InputStreamReader(this.m_socket.getInputStream()));
             String wiadomosc;
-
+            System.out.println(this.m_socket);
             wiadomosc = this.m_nick + "," + this.m_heroInt1;
             out.println(wiadomosc);
 

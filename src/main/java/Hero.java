@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.URISyntaxException;
 
 public class Hero {
     private BufferedImage h_card1;
@@ -100,77 +99,77 @@ public class Hero {
     public void InitializeCard(int hero) {
         try {
             if (hero == 1) {
-                this.h_card1 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card2 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card3 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card4 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card5 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card6 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card7 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card8 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card1small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta1small.png"));
-                this.h_card2small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta2small.png"));
-                this.h_card3small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta3small.png"));
-                this.h_card4small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta4small.png"));
-                this.h_card5small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta5small.png"));
-                this.h_card6small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta6small.png"));
-                this.h_card7small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta7small.png"));
-                this.h_card8small = ImageIO.read(new File("rsc\\Hero\\1\\Bohater1Karta8small.png"));
+                this.h_card1 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card2 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card3 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card4 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card5 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card6 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card7 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card8 = ImageIO.read(new File("Hero\\1\\Bohater1Karta1.png"));
+                this.h_card1small = ImageIO.read(new File("Hero\\1\\Bohater1Karta1small.png"));
+                this.h_card2small = ImageIO.read(new File("Hero\\1\\Bohater1Karta2small.png"));
+                this.h_card3small = ImageIO.read(new File("Hero\\1\\Bohater1Karta3small.png"));
+                this.h_card4small = ImageIO.read(new File("Hero\\1\\Bohater1Karta4small.png"));
+                this.h_card5small = ImageIO.read(new File("Hero\\1\\Bohater1Karta5small.png"));
+                this.h_card6small = ImageIO.read(new File("Hero\\1\\Bohater1Karta6small.png"));
+                this.h_card7small = ImageIO.read(new File("Hero\\1\\Bohater1Karta7small.png"));
+                this.h_card8small = ImageIO.read(new File("Hero\\1\\Bohater1Karta8small.png"));
 
             }
             if (hero == 2) {
-                this.h_card1 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1.png"));
-                this.h_card2 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta2.png"));
-                this.h_card3 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta3.png"));
-                this.h_card4 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta4.png"));
-                this.h_card5 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta5.png"));
-                this.h_card6 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta6.png"));
-                this.h_card7 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta7.png"));
-                this.h_card8 = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta8.png"));
-                this.h_card1small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1small.png"));
-                this.h_card2small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta2small.png"));
-                this.h_card3small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta3small.png"));
-                this.h_card4small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta4small.png"));
-                this.h_card5small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta5small.png"));
-                this.h_card6small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta6small.png"));
-                this.h_card7small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta7small.png"));
-                this.h_card8small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta8small.png"));
+                this.h_card1 = ImageIO.read(new File("Hero\\2\\Bohater2Karta1.png"));
+                this.h_card2 = ImageIO.read(new File("Hero\\2\\Bohater2Karta2.png"));
+                this.h_card3 = ImageIO.read(new File("Hero\\2\\Bohater2Karta3.png"));
+                this.h_card4 = ImageIO.read(new File("Hero\\2\\Bohater2Karta4.png"));
+                this.h_card5 = ImageIO.read(new File("Hero\\2\\Bohater2Karta5.png"));
+                this.h_card6 = ImageIO.read(new File("Hero\\2\\Bohater2Karta6.png"));
+                this.h_card7 = ImageIO.read(new File("Hero\\2\\Bohater2Karta7.png"));
+                this.h_card8 = ImageIO.read(new File("Hero\\2\\Bohater2Karta8.png"));
+                this.h_card1small = ImageIO.read(new File("Hero\\2\\Bohater2Karta1small.png"));
+                this.h_card2small = ImageIO.read(new File("Hero\\2\\Bohater2Karta2small.png"));
+                this.h_card3small = ImageIO.read(new File("Hero\\2\\Bohater2Karta3small.png"));
+                this.h_card4small = ImageIO.read(new File("Hero\\2\\Bohater2Karta4small.png"));
+                this.h_card5small = ImageIO.read(new File("Hero\\2\\Bohater2Karta5small.png"));
+                this.h_card6small = ImageIO.read(new File("Hero\\2\\Bohater2Karta6small.png"));
+                this.h_card7small = ImageIO.read(new File("Hero\\2\\Bohater2Karta7small.png"));
+                this.h_card8small = ImageIO.read(new File("Hero\\2\\Bohater2Karta8small.png"));
             }
             if (hero == 3) {
-                this.h_card1 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta1.png"));
-                this.h_card2 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta2.png"));
-                this.h_card3 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta3.png"));
-                this.h_card4 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta4.png"));
-                this.h_card5 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta5.png"));
-                this.h_card6 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta6.png"));
-                this.h_card7 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta7.png"));
-                this.h_card8 = ImageIO.read(new File("rsc\\Hero\\3\\Bohater3Karta8.png"));
-                this.h_card1small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1small.png"));
-                this.h_card2small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta2small.png"));
-                this.h_card3small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta3small.png"));
-                this.h_card4small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta4small.png"));
-                this.h_card5small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta5small.png"));
-                this.h_card6small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta6small.png"));
-                this.h_card7small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta7small.png"));
-                this.h_card8small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta8small.png"));
+                this.h_card1 = ImageIO.read(new File("Hero\\3\\Bohater3Karta1.png"));
+                this.h_card2 = ImageIO.read(new File("Hero\\3\\Bohater3Karta2.png"));
+                this.h_card3 = ImageIO.read(new File("Hero\\3\\Bohater3Karta3.png"));
+                this.h_card4 = ImageIO.read(new File("Hero\\3\\Bohater3Karta4.png"));
+                this.h_card5 = ImageIO.read(new File("Hero\\3\\Bohater3Karta5.png"));
+                this.h_card6 = ImageIO.read(new File("Hero\\3\\Bohater3Karta6.png"));
+                this.h_card7 = ImageIO.read(new File("Hero\\3\\Bohater3Karta7.png"));
+                this.h_card8 = ImageIO.read(new File("Hero\\3\\Bohater3Karta8.png"));
+                this.h_card1small = ImageIO.read(new File("Hero\\3\\Bohater3Karta1small.png"));
+                this.h_card2small = ImageIO.read(new File("Hero\\3\\Bohater3Karta2small.png"));
+                this.h_card3small = ImageIO.read(new File("Hero\\3\\Bohater3Karta3small.png"));
+                this.h_card4small = ImageIO.read(new File("Hero\\3\\Bohater3Karta4small.png"));
+                this.h_card5small = ImageIO.read(new File("Hero\\3\\Bohater3Karta5small.png"));
+                this.h_card6small = ImageIO.read(new File("Hero\\3\\Bohater3Karta6small.png"));
+                this.h_card7small = ImageIO.read(new File("Hero\\3\\Bohater3Karta7small.png"));
+                this.h_card8small = ImageIO.read(new File("Hero\\3\\Bohater3Karta8small.png"));
             }
             if (hero == 4) {
-                this.h_card1 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta1.png"));
-                this.h_card2 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta2.png"));
-                this.h_card3 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta3.png"));
-                this.h_card4 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta4.png"));
-                this.h_card5 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta5.png"));
-                this.h_card6 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta6.png"));
-                this.h_card7 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta7.png"));
-                this.h_card8 = ImageIO.read(new File("rsc\\Hero\\4\\Bohater4Karta8.png"));
-                this.h_card1small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta1small.png"));
-                this.h_card2small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta2small.png"));
-                this.h_card3small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta3small.png"));
-                this.h_card4small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta4small.png"));
-                this.h_card5small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta5small.png"));
-                this.h_card6small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta6small.png"));
-                this.h_card7small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta7small.png"));
-                this.h_card8small = ImageIO.read(new File("rsc\\Hero\\2\\Bohater2Karta8small.png"));
+                this.h_card1 = ImageIO.read(new File("Hero\\4\\Bohater4Karta1.png"));
+                this.h_card2 = ImageIO.read(new File("Hero\\4\\Bohater4Karta2.png"));
+                this.h_card3 = ImageIO.read(new File("Hero\\4\\Bohater4Karta3.png"));
+                this.h_card4 = ImageIO.read(new File("Hero\\4\\Bohater4Karta4.png"));
+                this.h_card5 = ImageIO.read(new File("Hero\\4\\Bohater4Karta5.png"));
+                this.h_card6 = ImageIO.read(new File("Hero\\4\\Bohater4Karta6.png"));
+                this.h_card7 = ImageIO.read(new File("Hero\\4\\Bohater4Karta7.png"));
+                this.h_card8 = ImageIO.read(new File("Hero\\4\\Bohater4Karta8.png"));
+                this.h_card1small = ImageIO.read(new File("Hero\\4\\Bohater4Karta1small.png"));
+                this.h_card2small = ImageIO.read(new File("Hero\\4\\Bohater4Karta2small.png"));
+                this.h_card3small = ImageIO.read(new File("Hero\\4\\Bohater4Karta3small.png"));
+                this.h_card4small = ImageIO.read(new File("Hero\\4\\Bohater4Karta4small.png"));
+                this.h_card5small = ImageIO.read(new File("Hero\\4\\Bohater4Karta5small.png"));
+                this.h_card6small = ImageIO.read(new File("Hero\\4\\Bohater4Karta6small.png"));
+                this.h_card7small = ImageIO.read(new File("Hero\\4\\Bohater4Karta7small.png"));
+                this.h_card8small = ImageIO.read(new File("Hero\\4\\Bohater4Karta8small.png"));
             }
         } catch (IOException ex) {
             throw new RuntimeException(ex);

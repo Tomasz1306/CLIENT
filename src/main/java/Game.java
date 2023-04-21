@@ -70,5 +70,5 @@ public class Game extends JFrame{
     public int getHero2(){
         return this.g_hero2;
     }
-
+    public void setSocket(Socket socket){ this.g_socket = socket; }
 }

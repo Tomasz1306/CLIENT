@@ -31,6 +31,13 @@ public class Event extends MouseAdapter{
             this.e_draw.repaint();
         }
     }
+    public void mousePressed(MouseEvent e){
+        if(this.e_game.getScene() == 6){
+            this.setMousePosition(e);
+            this.e_gameplay.Update(true, this.e_mousePosition.x, this.e_mousePosition.y);
+            this.e_draw.repaint();
+        }
+    }
 
     public void setMousePosition(MouseEvent e){
         if(this.e_game.getScene() == 6){
