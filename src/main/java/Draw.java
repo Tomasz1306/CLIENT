@@ -124,7 +124,34 @@ public class Draw extends JPanel{
             if(this.d_gameplay.getMouseCard8()){
                 g.drawString("Karta 8", 400, 400);
             }
-
+            if(this.d_gameplay.getClickCard1()){
+                g.drawString("Kliknieto karte 1", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard2()){
+                g.drawString("Kliknieto karte 2", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard3()){
+                g.drawString("Kliknieto karte 3", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard4()){
+                g.drawString("Kliknieto karte 4", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard5()){
+                g.drawString("Kliknieto karte 5", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard6()){
+                g.drawString("Kliknieto karte 6", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard7()){
+                g.drawString("Kliknieto karte 7", 500, 400);
+            }
+            if(this.d_gameplay.getClickCard8()){
+                g.drawString("Kliknieto karte 8", 500, 300);
+            }
+            g.setColor(Color.green);
+            g.drawRect(this.d_gameplay.getPlayerCardCoord().x,this.d_gameplay.getPlayerCardCoord().y, 15,15);
+            g.setColor(Color.red);
+            g.drawRect(this.d_gameplay.getOponentCardCoord().x,this.d_gameplay.getOponentCardCoord().y, 15,15);
         }
     }
 }
